@@ -16,6 +16,7 @@ class FiltroPaises {
         console.log(ex.message);
         this.data = [];
       }
+      console.log(this);
       return this;
     })();
   }
